@@ -1,8 +1,8 @@
 cask "elastio" do
-    version "hello_7367"
+    version "hello_7368"
     sha256 :no_check
   
-    url "https://github.com/elastio/homebrew-tap/releases/download/Signed/elastio.zip"
+    url "https://github.com/elastio/homebrew-tap/releases/download/Signed/elastio2.zip"
     name "Elastio"
     desc "The Data Protection Stage of Your Pipeline"
     homepage "https://elastio.com/"
