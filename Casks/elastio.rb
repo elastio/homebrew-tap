@@ -1,5 +1,5 @@
 cask "elastio" do
-    version "hello_7370"
+    version "hello_7371"
     sha256 :no_check
   
     url "https://github.com/elastio/homebrew-tap/releases/download/Signed/elastio.zip"
