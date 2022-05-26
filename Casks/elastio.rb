@@ -4,7 +4,7 @@ cask "elastio" do
     arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
   
     if Hardware::CPU.intel?
-      sha256 "6df350effe876ab6ac5eab9de9eb4a1f88c9181349310608514e964d01c20d6d"
+      sha256 "08fbc19190b8b0ca2a69c2635053cf9d2cdc50795418e16832c20244e0f2b231"
     else
       sha256 "d2bda762e2ee317102e857218b1bdcb4a938c5651695c67dc8adbecea91057c3"
     end
