@@ -5,9 +5,9 @@ cask "elastio_staging" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "691c7e46ad495f5890239159f26f70026a480333bc00be749d14aaf07a028a9f"
+    sha256 "559a066e619e92cf52353aaaf9efcc34c05f1fb61942237e7a120491059cd126"
   else
-    sha256 "6ab26a767a8929fea9837d3d9170a99300fdcdabc00f33225958e90a33851961"
+    sha256 "5b02d625775351e673009f8fe65e7e0b2c14439f3a3935ef1af0bbf61b1410f5"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/staging/macos/#{arch}/elastio.zip"
