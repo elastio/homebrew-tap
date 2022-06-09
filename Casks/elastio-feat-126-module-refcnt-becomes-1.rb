@@ -5,9 +5,9 @@ cask "elastio-feat-126-module-refcnt-becomes-1" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "de881a3181145d79cdc127edec9ae31bcacdaab5c416707f220dd00fda4b727e"
+    sha256 "8830d1727c5d1f5eb3009066745b6e596d9cf64e7ad932bdd604a0eb0330c140"
   else
-    sha256 "a50c84a6eebb452f3228b856e2f6bb924dd12743ce46fc449cf71e9d8335015c"
+    sha256 "a69f7c43c63331e4dab326ac84cb3d00b21ec802289c1dda34f36b943befe9cf"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/feat/126-module-refcnt-becomes-1/macos/#{arch}/elastio.zip"
