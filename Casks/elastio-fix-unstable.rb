@@ -5,9 +5,9 @@ cask "elastio-fix-unstable" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "4dbd56d0082125da9f4c3a78f08d9327d90a5c1bee5372b987480eefe0d9f3f6"
+    sha256 "a113f2ca395c171417ed31ffefd49f52abcffb83e3f863b6aad78723a3c84ddf"
   else
-    sha256 "da033994f94d7adb773c599e7fefa8a228062547baf99fafc0c84cbaf30b36d8"
+    sha256 "1bbb975695a2b709769e8211e6c8ba55abedaf90d7ab1246e0424d7c4e902705"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/fix/unstable/macos/#{arch}/elastio.zip"
