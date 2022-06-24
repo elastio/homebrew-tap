@@ -5,9 +5,9 @@ cask "elastio-feat-124-debian-11-needs-package" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "4bb60ae7ee6f6b57bd193dc3c78ffa0c448a15e9d5ebe83e8ae6b9c774135bb2"
+    sha256 "b7feb5c25ca7d215f21b2ee664b88b5ef2bd58ce9f484779341848d191634ea3"
   else
-    sha256 "4b5fc38c99f622efb3d499169d41c744703f45bce1568c8f402116e1055fcec5"
+    sha256 "17c604d96a5317d3a192934da0d43e3404c44e2781a1522af0ef73ab61f45b7f"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/feat/124-debian-11-needs-package/macos/#{arch}/elastio.zip"
