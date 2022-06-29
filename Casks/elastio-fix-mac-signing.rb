@@ -5,9 +5,9 @@ cask "elastio-fix-mac-signing" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "d697e9c39c6ac11e27d7dbebfa776c18c243296de3fcd96e480e82bb09735917"
+    sha256 "060565b10a85ef0390383fafd370932dbc9c8756f3ce5abaa76fef9c46c82110"
   else
-    sha256 "2574204bd459ead395e3ac28f860a6d1e473acb5a026432864e5469e5385e140"
+    sha256 "0fb7e8c1591dc4a32cbac5875641b7ffde3560919f3863e5e0542b8f67979419"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/fix/mac-signing/macos/#{arch}/elastio.zip"
