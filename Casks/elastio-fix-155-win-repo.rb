@@ -5,9 +5,9 @@ cask "elastio-fix-155-win-repo" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "6b8b0218f4892e8114301e907fa6903f25980c46a5bdaaba53c40f8df3b282f2"
+    sha256 "8ea6a3d3de3560804e7b628832e2e725dec557e35202975916e08e610db799ac"
   else
-    sha256 "742206ee7c0d74a7b36cad8766c45d5acb48b1ddfc3e44cd7aaf699f62d4bbd8"
+    sha256 "87d34bb020bdc7d7893f49b1048654e08d9e9abceb02f315cc8fbaa8d8ee6453"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/fix/155-win-repo/macos/#{arch}/elastio.zip"
