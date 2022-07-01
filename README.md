@@ -1,7 +1,7 @@
 # Elastio Homebrew Tap
 
 To install elastio run:
-`brew install --no-quarantine elastio/tap/elastio`
+`brew install elastio/tap/elastio`
 
 ## How do I install these formulae?
 
