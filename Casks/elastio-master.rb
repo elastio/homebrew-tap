@@ -5,9 +5,9 @@ cask "elastio-master" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "2b7f62b7672b42c9d3bddb5be73dacd0b8ec28f672d388ffa7b09d318461fad7"
+    sha256 "a8b5e1605e5a8185f1c783dc36a8dd08e400c775908771139b0756b2657f03d2"
   else
-    sha256 "7d445db123b34f9472e604c5a09c26005ef9566e4b8789a4807af5eebe636a6c"
+    sha256 "3922adf2f4a81c2c39e18ecea58d448f2fe30dadae9a2de9ebd6117735e57a22"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/master/macos/#{arch}/elastio.zip"
