@@ -1,13 +1,13 @@
 cask "elastio-nightly" do
 
-  version "0.18.14"
+  version "0.18.15"
 
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "80aac44f48f4f998864641587134d70910a90d6e51ac9f78ee6235398644478f"
+    sha256 "14f1df4292482eb4e55196c1ac066435c3804e7e89c77ff82df09dd058dee085"
   else
-    sha256 "ec211712f554be514b4e059f03758a792f9b2dea8582d82b05091fc5a4345108"
+    sha256 "88877f0a79e334665330a73b444bebd2bd2b7b116638cf61b70b3d4efd9f2d4b"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/nightly/macos/#{arch}/elastio.zip"
