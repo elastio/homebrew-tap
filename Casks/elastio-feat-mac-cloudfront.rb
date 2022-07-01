@@ -5,9 +5,9 @@ cask "elastio-feat-mac-cloudfront" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "2618ba0c3b6d9d358fc43efbbae37fbafe424d377b59775587cf898142ed7842"
+    sha256 "b9f77e76cccf8dd762266c9c0d08ca66eb8908dbd71883c2410daf9192cff9fa"
   else
-    sha256 "56d424cbb972dff70fc1b513f2d1bc6cf4d2a95ceb29690b42c6b107e1e920fb"
+    sha256 "bdc06374af0dbc646f772ee6a44b1d27c9efa13951b7cf112b226d6a8329917f"
   end
 
   url "https://s3.us-east-2.amazonaws.com/repo.assur.io/feat/mac-cloudfront/macos/#{arch}/elastio.zip"
