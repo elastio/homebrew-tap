@@ -5,12 +5,12 @@ cask "elastio-feat-tests-logging" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "3f54760400d64808650f7d343221ac60fcad6194327a4102e5264b9d143530eb"
+    sha256 "9e710f47c438b7419c81e49f5a3a38c4ec0338c0bcfb6592a3adce5b05384621"
   else
-    sha256 "d52de13067717c75515e99a6c1876e1dca5233aa95335a15e61d2c681e3c5ca6"
+    sha256 "3d4024415b66d6bc59dbb00336cffdee3f83950287bb65224367440c57800582"
   end
 
-  url "https://repo.assur.io/feat/tests-logging/ver-85621660169481/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/tests-logging/ver-85631660170832/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
