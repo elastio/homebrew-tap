@@ -5,12 +5,12 @@ cask "elastio-fix-win-smoke" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "778451851be5bcd56ef9861911c80252c64c8daa204b5e8335f646e234e5e293"
+    sha256 "0a26a13789e85b2aeff760011cef5e95acad132e06419abafeb48026c8cdd31e"
   else
-    sha256 "dfcdb58acabfe713c9d46f6b3f1cc0c1772d15eeefd5918b5f12df73f5d86456"
+    sha256 "c8237548f2eff11f118c94c42306015beb08b5f87ab2d0aac3c6d93563a4d6b4"
   end
 
-  url "https://repo.assur.io/fix-win-smoke/ver-87001661513706/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix-win-smoke/ver-87031661524999/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
