@@ -5,12 +5,12 @@ cask "elastio-fix-166-instability-issues-on-ubuntu2204" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "9271f401fbd661370aff6be90777f2ce8dbf1c1e47d6dab87864e16958faa4aa"
+    sha256 "1e2d7e7b59aeb83133493bef320af14c408c18d7bbdcf12f653919a963afda00"
   else
-    sha256 "032a9942e65d85e22671b2f06b656b42f7df37ab7642151200b926cf2005b799"
+    sha256 "52b77b20b3d89522a2d6556284050eae1996edb4e380209739bf4f0afcd2de7e"
   end
 
-  url "https://repo.assur.io/fix/166-instability-issues-on-ubuntu2204/ver-89691664280244/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix/166-instability-issues-on-ubuntu2204/ver-89761664287881/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
