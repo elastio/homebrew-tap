@@ -5,12 +5,12 @@ cask "elastio-fix-170-fs-sync-cow-full-fails" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "43c3515b1ccdd61c3879db95a649f08b19ae7bdb42fd3de52675779d957e0649"
+    sha256 "dd763015d86028824980512ef0ea62c3a320fbfdc83801f2a810814e014554dc"
   else
-    sha256 "c76c8f80ebcfa5e3a31cecebdbc8fbda01ea4cb4bc0d00f97587c63e789bdbe0"
+    sha256 "4c7288bd77e6a234948b541cec228e651c156962abbaf7e803a5487736c1b50a"
   end
 
-  url "https://repo.assur.io/fix/170-fs-sync-cow-full-fails/ver-90451664898839/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix/170-fs-sync-cow-full-fails/ver-90491664951235/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
