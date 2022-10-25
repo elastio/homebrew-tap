@@ -5,12 +5,12 @@ cask "elastio-add-centos9" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "483670be6b4f10d91d24c9cc11b1128f4b840683fdb10158753d25674c1c3b0a"
+    sha256 "639f5fffadb46fbd19b13a139678044b4596eb6a4a55a8820216cab0bc860e5b"
   else
-    sha256 "83e6c2b641189070d4c587b32e8df78b834202536991f68a58c0dd7ee4d0c8ef"
+    sha256 "b65df4efd6d2a711394472c3f8a8be2c638fa89b35327d221dfca7f1f77fc2aa"
   end
 
-  url "https://repo.assur.io/add/centos9/ver-91851666655888/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/add/centos9/ver-91861666656386/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
