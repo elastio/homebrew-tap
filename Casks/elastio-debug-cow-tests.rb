@@ -5,12 +5,12 @@ cask "elastio-debug-cow-tests" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "145cbf0370501954c1c5f317898a8c6b61dd6c86e42a45209066284497743c6d"
+    sha256 "0a67107dd5ad2c5b3b6a72c6d34a554a9230f6b13add8d74a6409f9dd6f185ad"
   else
-    sha256 "e162261a6fec01941bb9726acbd701b36dcf3d891eccc5ed561977bd7ecc7af7"
+    sha256 "b4f77e5545db778d63193d4cb3b2313e0b5b71579faaf51987e76038dd8bc15c"
   end
 
-  url "https://repo.assur.io/debug/cow-tests/ver-92801667516777/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/debug/cow-tests/ver-92811667518197/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
