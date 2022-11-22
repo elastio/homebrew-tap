@@ -5,12 +5,12 @@ cask "elastio-fix-new-devbox-version" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "aff15f83b0855e1f17659095f01d12b124660bbc02b64384d22fd6ab4bbee233"
+    sha256 "519cb45508c2ee445d50fe6962583bc9e1c25e9ed954deb8bd0de73f9242240f"
   else
-    sha256 "4944f0741e9bbb101f8582be012ff9650a45f94abe01671fc5bb981dd6c01706"
+    sha256 "545c5554122b3ac62f94d9e3cf937538bd2cedb8dc20db88964746197abe6669"
   end
 
-  url "https://repo.assur.io/fix-new-devbox-version/ver-94171669106501/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix-new-devbox-version/ver-94221669111166/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
