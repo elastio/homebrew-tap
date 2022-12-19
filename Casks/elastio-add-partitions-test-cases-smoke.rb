@@ -5,12 +5,12 @@ cask "elastio-add-partitions-test-cases-smoke" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "371a1bda3add435552a78d453f3e7a99ea800a33e7ba75dde981fd936ce3ce8d"
+    sha256 "2f6a11ffe97286451482bd371e64d0dad88bfa32b3566c6d6b80910c9bb53cad"
   else
-    sha256 "192849eb9b12c87d4a0f6c534e0b463b94ba7b48f3043897d51b72b704f289dc"
+    sha256 "8985c42eb24900069606a478af4d16e81db10ee7ede62cd9ff2ebe769c629520"
   end
 
-  url "https://repo.assur.io/add-partitions-test-cases-smoke/ver-96771671475372/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/add-partitions-test-cases-smoke/ver-96781671477651/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
