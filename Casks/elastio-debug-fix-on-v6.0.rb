@@ -5,12 +5,12 @@ cask "elastio-debug-fix-on-v6.0" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "cbf99de6a67fdc73f36933df42955bc4aff6cb53f6924bf3f59f6e5b3d72c45a"
+    sha256 "ff0b66b31105733be22f4df0d30cfa11e3278120b43515f750c7ec924d9816cd"
   else
-    sha256 "9c6a40d585ecfb56ff56add9d3972e3b918945845b6ade8409a11d70f02d41bb"
+    sha256 "c90cbd430209b170aac217215e954b7323e83b56828fec597df4f5d6dd554bcb"
   end
 
-  url "https://repo.assur.io/debug/fix-on-v6.0/ver-96901671565031/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/debug/fix-on-v6.0/ver-96911671582996/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
