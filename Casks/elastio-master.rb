@@ -5,12 +5,12 @@ cask "elastio-master" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "237286bbe90030d1035f8d222d73d01cf8ad371da2816206456144e3e6edc1ba"
+    sha256 "09eb72f28de7a1ad8ba9a86234cfa47b7964dd3a968c3c3bd0a506ede5ffa309"
   else
-    sha256 "9384082f0b7979d696e5dc8b0ede1b6762b9354ddee905090069497916a83ba5"
+    sha256 "3af925a764751cdeba9beaf6b9e640f8c25d4bb3dd7131942642b53723d81935"
   end
 
-  url "https://repo.assur.io/master/ver-99511674432978/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/master/ver-99541674461420/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
