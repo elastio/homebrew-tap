@@ -5,12 +5,12 @@ cask "elastio-feat-6527-improve-win-install-script" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "b908b0cc06077cc4775fe6d8d841a839fe772b6f77a9c0b60f60f844f1e4f362"
+    sha256 "5da34d44b68c625f267296c2711413d86a06ce37cc27e2f905203de4f5ac1039"
   else
-    sha256 "512d26ea4ef950fa77bf3e8bda6a05d995d4bf0034c98c6b84fd840bd81251ac"
+    sha256 "502cf19cef8ab2c079b731e54f1eef7aaa4536587e47964d5f1fcffa2d32c445"
   end
 
-  url "https://repo.assur.io/feat/6527-improve-win-install-script/ver-100821675948768/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/6527-improve-win-install-script/ver-100861675954964/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
