@@ -5,12 +5,12 @@ cask "elastio-fix-406-al2023-releasever" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "14d84fc4097ee8931beb30234e0e12236051d274ce0b95101c63b788c93b0bbb"
+    sha256 "8dbef33f476860546cd7837fefeb839093592019304bda8dd4e75db958298ff1"
   else
-    sha256 "3b6a34e46708be8e6425f0b83d133ba2d2c895f532c9c3ad1404ad43cc6e8ce1"
+    sha256 "3497871bbcd325b8eec219f81885987a82f7214483735ecd89be8a1eaeb63879"
   end
 
-  url "https://repo.assur.io/fix/406-al2023-releasever/ver-106211681573256/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix/406-al2023-releasever/ver-106231681574823/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
