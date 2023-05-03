@@ -5,12 +5,12 @@ cask "elastio-fix-install-oracle-linux" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "3094152a1fe6a9a679849c5dfa0834a21658aad63794c2d453b1c7a55e745bc9"
+    sha256 "cb9f5c2fb88c7e01b27dc967d28c6fda6d963bf8f611560a7ec9136fa3ca5aca"
   else
-    sha256 "fa6d13a0a0e3de7a0cf4870e249c2d510569317c641af7a495845cab7baf6f49"
+    sha256 "7f25ba78862519c60255456b952ae7e5183f13b132de80d35d7625a6f20c2631"
   end
 
-  url "https://repo.assur.io/fix/install-oracle-linux/ver-107291683130190/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix/install-oracle-linux/ver-107301683130722/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
