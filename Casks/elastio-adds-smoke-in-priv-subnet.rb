@@ -5,12 +5,12 @@ cask "elastio-adds-smoke-in-priv-subnet" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "cf06c697972ab4f42568686420354f0e50cb1e1953f3c445beb07cf86d39fdad"
+    sha256 "401a09688a37cb6397c4466d5b9fa02fab33a9126a1f2281c3e3a2b003baca14"
   else
-    sha256 "2af11db2a5a77cf7ecf9b1d9b56de6c412bd4413207882de9ba1694fb035f8c6"
+    sha256 "7b8e92dc1bcccd341823e825b365fec3aff162a24d26b5437ab2978d392468c2"
   end
 
-  url "https://repo.assur.io/adds-smoke-in-priv-subnet/ver-113041689584486/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/adds-smoke-in-priv-subnet/ver-113051689584510/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
