@@ -1,16 +1,16 @@
 cask "elastio-fix-smoke" do
 
-  version "0.28.0"
+  version "0.28.27"
 
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "63191356fdcb66fc78d245427159dc851dcbb89587a02f4f23d2be54561f849b"
+    sha256 "9917752cd9c4150147810e9fd2715e9090658ffa93e15930772e872624d81d7f"
   else
-    sha256 "bc3eba9a7d012b75e083253f4afc22f3deff2cd5fff17b58743b2150a98e930a"
+    sha256 "c6fe9da6b2b240e02c829665bf166d9a263239669ccfbab1d0d551d2289848b3"
   end
 
-  url "https://repo.assur.io/fix-smoke/ver-115591692719341/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/fix-smoke/ver-118851696340648/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
