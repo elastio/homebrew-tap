@@ -1,16 +1,16 @@
 cask "elastio-nightly" do
 
-  version "0.28.49"
+  version "0.28.50"
 
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "8d80a82c74b4f5a7d09e9264c9a0d80a19aef8953493f92598f3e2435be44064"
+    sha256 "7fff003eaea284c2d968be1f6b64a94f0348cd857c7f9b4f1e5f09030234487c"
   else
-    sha256 "0b6f73201e4263c7b01e3a5d058ae3581588c1f94362e36f7952258f5f475276"
+    sha256 "ae47594b1eee5945d239bb50c64e6045d1d33ad7877a68209765d401c37fed68"
   end
 
-  url "https://repo.assur.io/nightly/ver-121231698395870/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/nightly/ver-121331698462616/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
