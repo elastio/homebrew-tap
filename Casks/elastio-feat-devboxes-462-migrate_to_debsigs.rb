@@ -5,12 +5,12 @@ cask "elastio-feat-devboxes-462-migrate_to_debsigs" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "83c696fc2baae0c73c26f90c6f83c0afa2375f57197c1f0b3d79636ced1aa70f"
+    sha256 "d7d3434de719ed3103ca72cfe4f5eab1e6a769448a0e0065223d238f199c1c01"
   else
-    sha256 "3c956dd7b7151196a6e9b527f85c02cd6620b62caee47510dcbd13f816216d11"
+    sha256 "dbec3800a2ecdf2d40c00134b49b9edad9036f7cf193b01a568c898e8d8f3f7a"
   end
 
-  url "https://repo.assur.io/feat/devboxes-462/migrate_to_debsigs/ver-123561700517611/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/devboxes-462/migrate_to_debsigs/ver-123571700518186/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
