@@ -5,12 +5,12 @@ cask "elastio-feat-improve-ci" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "b6d7ac113362c775cb903380e9e9b78616e3f965a904edbff0f863479df0c24b"
+    sha256 "665cdf3fe04678d02642f8f97d4d21cf73d3b95920438468dbbc318aada9637c"
   else
-    sha256 "a43cc1cecf2a8ca60af3341780a4955ede9a8695214424f3930ef1c17dd54d09"
+    sha256 "6abfaade86458e5c91d42872676ea49a414ae8962fc4e233f359bbf427637f60"
   end
 
-  url "https://repo.assur.io/feat/improve-ci/ver-124811701548828/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/improve-ci/ver-124821701567372/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
