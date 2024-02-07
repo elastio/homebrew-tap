@@ -5,12 +5,12 @@ cask "elastio-feat-394-migrate-to-oidc" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "5f2492e6e539993bed0db71246d36e36369676990f8e14488a8f2a929766b93e"
+    sha256 "c0a3cecd38c3afc53dc797f87c07d7574ddf4889cd29882c9c7077482d5eee46"
   else
-    sha256 "a7b9d5080ddd40706fd00b38c141775a931bfd50c2ec19cbb20b6f20d7143cf9"
+    sha256 "4755eeaff73393db28b180690656e5fb4d5250ff5faddac35730e2c05c525e1a"
   end
 
-  url "https://repo.assur.io/feat/394/migrate-to-oidc/ver-130311707328504/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/394/migrate-to-oidc/ver-130331707329633/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
