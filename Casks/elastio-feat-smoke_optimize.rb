@@ -5,12 +5,12 @@ cask "elastio-feat-smoke_optimize" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "f1597eddaa1921106d904e27e0708b70d982d428a26c223f9b4bb7370d685cd4"
+    sha256 "495e22a31f0be184ac1136a96321a9963fcb91415420b1d14c1efa7c9697dd03"
   else
-    sha256 "4103344bdc91905dca36ff309a67bb67eb64fa3e8b2c1f278b1bacf719982e0e"
+    sha256 "80964d02282d0fb79a27dea013759756cb2848dc0041012919d1ec282c48cd34"
   end
 
-  url "https://repo.assur.io/feat/smoke_optimize/ver-131431708019213/macos/#{arch}/elastio.zip"
+  url "https://repo.assur.io/feat/smoke_optimize/ver-131451708019458/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
