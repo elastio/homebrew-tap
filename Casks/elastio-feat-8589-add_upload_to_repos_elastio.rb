@@ -5,12 +5,12 @@ cask "elastio-feat-8589-add_upload_to_repos_elastio" do
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "39e449ec8c665de7e3a97ebcd227247b48949b7504a8a2b8c964375786ee1866"
+    sha256 "ad9d0d15ea5f8caf5ac1dffa114aff21b5a02a37b4ea3d12bf2850bfc96f1ced"
   else
-    sha256 "8046c69595d0d0f39643cf012d5ee159127740ebdf427588cada905d5610c466"
+    sha256 "3e606e35747e298d77efa9515aa6f45fac6622a364b8e1710fa3108a3e6da48f"
   end
 
-  url "https://repo.elastio.us/feat/8589/add_upload_to_repos_elastio/ver-134441710356838/macos/#{arch}/elastio.zip"
+  url "https://repo.elastio.us/feat/8589/add_upload_to_repos_elastio/ver-134471710365897/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
