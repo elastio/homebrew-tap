@@ -1,16 +1,16 @@
 cask "elastio-staging" do
 
-  version "0.35.16"
+  version "0.36.2"
 
   arch = Hardware::CPU.intel? ? "x86_64" : "aarch64"
 
   if Hardware::CPU.intel?
-    sha256 "18603764dd4b697c545b90b687a8bc7fd3878460f8421b137961790175110f9a"
+    sha256 "6deedbc4b9ed6d78ab472e33c795c00fcdc6c7f4cd03712ea4dc4b314f0baa1f"
   else
-    sha256 "f296f1274dd34b13b6c0c83cf0faeceffdb4257ad4af539e6b2b303e13675f29"
+    sha256 "70d94bc349d1d6b97699755533908e0ef8048c6d0dc144449cadf978ad44b59b"
   end
 
-  url "https://repo.elastio.us/staging/ver-156111744138919/macos/#{arch}/elastio.zip"
+  url "https://repo.elastio.us/staging/ver-156241744382513/macos/#{arch}/elastio.zip"
   name "Elastio"
   desc "The Data Protection Stage of Your Pipeline"
   homepage "https://elastio.com/"
